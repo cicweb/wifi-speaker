@@ -25,7 +25,7 @@ Stream audio from your computer or phone to an ESP32 over Wi-Fi and play it thro
 2. Set your Wi-Fi credentials
 3. Upload the code. The ESP32 will print its IP on serial.
 
-Python Client
+## Python Client
 Install dependencies:
 
 pip install numpy pydub
@@ -50,5 +50,5 @@ ESP32 server buffers incoming bytes and outputs them through DAC at 22,050 Hz us
 Hard limiter prevents spikes from damaging the LM386 or speakers
 
 
-Credits
+## Credits
 Built by ZiadWin356/cicweb
